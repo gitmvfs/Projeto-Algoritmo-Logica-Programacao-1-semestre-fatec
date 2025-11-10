@@ -70,8 +70,6 @@ Dentro da raiz do projeto crie um ambient virtual para as dependências do proje
 
 ## Tests Unitários:
 
-Dentro da raiz do projeto crie um ambient virtual para as dependências do projeto:
-
 ```cmd
    pytest -q
 ```
