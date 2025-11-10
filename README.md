@@ -36,7 +36,7 @@ Dentro da raiz do projeto crie um ambient virtual para as dependências do proje
 ### Baixe as dependências
 
 ```cmd
-   pip install requirements.txt
+   pip install -r requirements.txt
 ```
 ### Execute o servidor
 
