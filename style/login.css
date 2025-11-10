@@ -1,0 +1,143 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'itim';
+}
+
+video{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 1920px;
+}
+
+#login form {
+    width: 530px;
+    height: 614px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d9d9d93f;
+    backdrop-filter: blur(6px);
+
+    border-radius: 16px;
+    border: 1px solid white;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 530px * 0.55);
+}
+
+#login h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: -50px;
+    text-shadow: 2px 4px 2px #210E09;
+}
+
+#login input.custom {
+    width: 370px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding-left: 8px;
+    font-size: 24px;
+}
+
+#login input.password {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#login input::placeholder {
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-top: 20px;
+}
+
+p,a {
+    text-decoration: none;
+    color: rgb(24, 13, 13);
+
+}
+
+.content p {
+    margin-left: 20px;
+}
+
+.content {
+    font-size: 20px;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    transition: 0.5;
+    text-decoration: underline;
+}
+
+a.forgot {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+button {
+    width: 370px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid white;
+
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.425);
+
+    cursor: pointer;
+
+    font-size: 24px;
+    font-family: 'itim';
+
+    color: black;
+    background-color: whitesmoke;
+    
+}
+
+button:hover{
+    transition: 0.6s;
+    filter: opacity(80%);
+}
+.or-style{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+   
+    align-items: center;
+
+    width: 75%;
+
+}
+
+.or-style hr{
+    height: 2px;
+    width: 160px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: white;
+    border-radius: 24px;
+}
+
+a.sign{
+    font-size: 24px;
+}

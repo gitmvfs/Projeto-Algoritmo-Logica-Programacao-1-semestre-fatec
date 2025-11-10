@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="Uma simples pagina de login para consumir o backend em python">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/login.css">
+    <link rel="stylesheet" href="/style/checkbox.css">
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <section id="login">
+
+        <form action="http://127.0.0.1:8000/user/" method="post"  target="_blank">
+            <h1>Sign Up</h1>
+
+            <input class="custom" type="text" name="name" value="" minlength="3" placeholder="Name" required>
+            <input class="custom" type="email" style="margin-top: 24px;" name="email" value="" minlength="5" placeholder="Email" required>
+            <input class="custom password" type="password"  value="" minlength="5" name="password" placeholder="Password" required>
+           
+
+            
+            <button type="submit">Register</button>
+
+            </div>
+            <div class="or-style">
+                <hr>
+                <p>OR</p>
+                <hr>
+            </div>
+
+            <a class="sign" href="/login.html">Sign In Now!</a>
+        </form>
+
+    </section>
+
+    <video src="/assets/background.mp4" muted autoplay loop></video>
+</body>
+
+</html>
